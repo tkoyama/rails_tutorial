@@ -5,6 +5,9 @@ application up and running.
 
 [![Circle CI](https://circleci.com/gh/vividmuimui/rails_tutorial.svg?style=shield&circle-token=31dcf9698ca5a5a4d0b0cc0d67f9f5f118c4863c)](https://circleci.com/gh/vividmuimui/rails_tutorial)
 [![Dependency Status](https://gemnasium.com/vividmuimui/rails_tutorial.svg)](https://gemnasium.com/vividmuimui/rails_tutorial)
+[![Code Climate](https://codeclimate.com/github/vividmuimui/rails_tutorial/badges/gpa.svg)](https://codeclimate.com/github/vividmuimui/rails_tutorial)
+[![Test Coverage](https://codeclimate.com/github/vividmuimui/rails_tutorial/badges/coverage.svg)](https://codeclimate.com/github/vividmuimui/rails_tutorial/coverage)
+[![Issue Count](https://codeclimate.com/github/vividmuimui/rails_tutorial/badges/issue_count.svg)](https://codeclimate.com/github/vividmuimui/rails_tutorial)
 
 Things you may want to cover:
 
