@@ -7,4 +7,4 @@ deployment:
   staging:
     branch: master
     commands:
-      - sh ./script/deploy_dev.sh:
+      - sh ./script/deploy_dev.sh
