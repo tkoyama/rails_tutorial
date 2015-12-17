@@ -3,3 +3,8 @@ machine:
     Asia/Tokyo
   ruby:
     version: 2.2.3
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: rails-tutorial-sample-vivid
