@@ -7,8 +7,4 @@ deployment:
   staging:
     branch: master
     commands:
-      - git push git@heroku.com:rails-tutorial-sample-vivid.git $CIRCLE_SHA1:master
-      - heroku run rake db:migrate --app rails-tutorial-sample-vivid
-notify:
-  webhooks:
-    - url: https://hooks.slack.com/services/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
+      - sh ./script/deploy_dev.sh:
