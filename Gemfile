@@ -14,6 +14,7 @@ gem "bcrypt",       "3.1.7"
 gem 'faker',        '1.4.2'
 gem 'will_paginate',           '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
+gem "codeclimate-test-reporter"
 
 group :development, :test do
   gem 'sqlite3',     '1.3.9'
@@ -26,7 +27,7 @@ group :test do
   gem 'minitest-reporters', '1.0.5'
   gem 'mini_backtrace',     '0.1.3'
   gem 'guard-minitest',     '2.3.1'
-  gem "codeclimate-test-reporter", require: nil
+  # gem "codeclimate-test-reporter", require: nil
 end
 
 group :production do
