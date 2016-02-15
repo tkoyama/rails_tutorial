@@ -11,4 +11,4 @@
 /vendor/bundle
 /vendor/bin
 .ruby-version
-
+/public/uploads
