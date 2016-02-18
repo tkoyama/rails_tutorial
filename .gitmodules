@@ -1,0 +1,3 @@
+[submodule "administrate"]
+	path = administrate
+	url = https://github.com/thoughtbot/administrate.git
