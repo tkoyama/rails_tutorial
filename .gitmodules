@@ -1,3 +1,4 @@
 [submodule "administrate"]
 	path = administrate
-	url = https://github.com/thoughtbot/administrate.git
+	#url = https://github.com/thoughtbot/administrate.git
+	url = https://github.com/vividmuimui/administrate.git 
