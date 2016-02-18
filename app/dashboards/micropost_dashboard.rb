@@ -22,10 +22,12 @@ class MicropostDashboard < Administrate::BaseDashboard
   # By default, it's limited to four items to reduce clutter on index pages.
   # Feel free to add, remove, or rearrange items.
   COLLECTION_ATTRIBUTES = [
-    :user,
     :id,
+    :user,
     :content,
+    :picture,
     :created_at,
+    :updated_at,
   ]
 
   # SHOW_PAGE_ATTRIBUTES

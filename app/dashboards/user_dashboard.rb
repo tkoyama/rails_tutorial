@@ -30,16 +30,16 @@ class UserDashboard < Administrate::BaseDashboard
   # By default, it's limited to four items to reduce clutter on index pages.
   # Feel free to add, remove, or rearrange items.
   COLLECTION_ATTRIBUTES = [
-    :microposts,
     :id,
     :name,
     :email,
+    :admin,
+    :microposts,
   ]
 
   # SHOW_PAGE_ATTRIBUTES
   # an array of attributes that will be displayed on the model's show page.
   SHOW_PAGE_ATTRIBUTES = [
-    :microposts,
     :id,
     :name,
     :email,
@@ -53,13 +53,13 @@ class UserDashboard < Administrate::BaseDashboard
     :activated_at,
     :reset_digest,
     :reset_sent_at,
+    :microposts,
   ]
 
   # FORM_ATTRIBUTES
   # an array of attributes that will be displayed
   # on the model's form (`new` and `edit`) pages.
   FORM_ATTRIBUTES = [
-    :microposts,
     :name,
     :email,
     :password_digest,
@@ -70,6 +70,7 @@ class UserDashboard < Administrate::BaseDashboard
     :activated_at,
     :reset_digest,
     :reset_sent_at,
+    :microposts,
   ]
 
   # Overwrite this method to customize how users are displayed
