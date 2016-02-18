@@ -13,7 +13,7 @@ class MicropostDashboard < Administrate::BaseDashboard
     content: Field::Text,
     created_at: Field::DateTime,
     updated_at: Field::DateTime,
-    picture: Field::String,
+    picture: Field::Image,
   }
 
   # COLLECTION_ATTRIBUTES
