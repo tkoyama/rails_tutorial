@@ -269,6 +269,7 @@ GEM
       bourbon (>= 4.0)
       sass (>= 3.3)
     nenv (0.2.0)
+    newrelic_rpm (3.15.0.314)
     nokogiri (1.6.7.1)
       mini_portile2 (~> 2.0.0.rc2)
     normalize-rails (3.0.3)
@@ -403,6 +404,7 @@ DEPENDENCIES
   mini_backtrace (= 0.1.3)
   mini_magick (= 3.8.0)
   minitest-reporters (= 1.0.5)
+  newrelic_rpm
   pg (= 0.17.1)
   pry-byebug
   pry-coolline
