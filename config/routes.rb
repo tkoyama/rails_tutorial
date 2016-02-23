@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  namespace :admin do
+    resources :microposts
+resources :users
+
+    root to: "microposts#index"
+  end
+
   get 'password_resets/new'
 
   get 'password_resets/edit'
