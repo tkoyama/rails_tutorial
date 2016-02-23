@@ -3,8 +3,8 @@ machine:
     Asia/Tokyo
   ruby:
     version: 2.2.3
-deployment:
-  staging:
-    branch: master
-    commands:
-      - sh ./script/deploy_dev.sh
+#deployment:
+#  staging:
+#    branch: master
+#    commands:
+#      - sh ./script/deploy_dev.sh
