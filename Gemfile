@@ -21,10 +21,13 @@ gem 'fog',                     '1.36.0'
 gem 'administrate', github: "vividmuimui/administrate"
 gem 'newrelic_rpm'
 
+group :development do
+  gem 'web-console', '>= 2.1.3'
+end
+
 group :development, :test do
   gem 'sqlite3',     '1.3.9'
   gem 'byebug',      '3.4.0'
-  gem 'web-console', '>= 2.1.3'
   gem 'spring',      '1.1.3'
 end
 
