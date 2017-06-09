@@ -1,7 +1,7 @@
 
 source 'https://rubygems.org'
 
-gem 'rails',        '~> 4.2.5'
+gem 'rails',        '~> 4.2.7.1'
 gem 'sass-rails',   '5.0.2'
 gem 'bootstrap-sass', '3.2.0.0'
 gem 'uglifier',     '>= 2.7.2'
@@ -52,3 +52,4 @@ gem "pry-toys"
 gem "pry-coolline"
 gem "pry-state"
 gem "awesome_print"
+gem 'nokogiri', '>= 1.7.1'
