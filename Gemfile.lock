@@ -388,7 +388,7 @@ GEM
       railties (>= 4.2)
     will_paginate (3.0.7)
     xml-simple (1.1.5)
-    yard (0.8.7.6)
+    yard (0.9.20)
 
 PLATFORMS
   ruby
