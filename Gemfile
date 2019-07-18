@@ -16,7 +16,7 @@ gem 'will_paginate',           '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
 gem "codeclimate-test-reporter"
 gem 'carrierwave',             '0.10.0'
-gem 'mini_magick',             '3.8.0'
+gem 'mini_magick',             '4.9.5'
 gem 'fog',                     '1.36.0'
 gem 'administrate', github: "vividmuimui/administrate"
 gem 'newrelic_rpm'
