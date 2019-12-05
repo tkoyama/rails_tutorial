@@ -271,6 +271,7 @@ GEM
       sass (>= 3.3)
     nenv (0.3.0)
     newrelic_rpm (3.15.1.316)
+    nio4r (2.5.2)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
     normalize-rails (3.0.3)
@@ -296,9 +297,9 @@ GEM
       pry (>= 0.9.10, < 0.11.0)
     pry-toys (0.0.2)
       pry
-    puma (2.11.1)
-      rack (>= 1.1, < 2.0)
-    rack (1.6.4)
+    puma (4.3.1)
+      nio4r (~> 2.0)
+    rack (1.6.11)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (4.2.6)
@@ -419,7 +420,7 @@ DEPENDENCIES
   pry-rails
   pry-state
   pry-toys
-  puma (= 2.11.1)
+  puma (= 4.3.1)
   rails (~> 4.2.5)
   rails_12factor (= 0.0.2)
   sass-rails (= 5.0.2)
